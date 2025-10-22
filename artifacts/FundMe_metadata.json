@@ -12,6 +12,15 @@
 			},
 			{
 				"inputs": [],
+				"name": "NotOwner",
+				"type": "error"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
 				"name": "MIN_USD",
 				"outputs": [
 					{
@@ -68,6 +77,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -85,7 +98,7 @@
 		"compilationTarget": {
 			"FundMe.sol": "FundMe"
 		},
-		"evmVersion": "prague",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -106,11 +119,11 @@
 			]
 		},
 		"FundMe.sol": {
-			"keccak256": "0x36ca903d77ca2d9318201c37faff5934d1e493ad850a395be0cd8540afe63a4a",
+			"keccak256": "0xda9d7d9386248229f3480fe25621710fee213f0980691bf871e2be6fc133f2e3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ab7cbf0f658853ad7c397e47efe63abc6678096cf92a01b1188bd3fa6e3acb9c",
-				"dweb:/ipfs/QmVmPBWDkE2utvP7HyqH9EboD94FfzbEj2zSuVUdA2Vmj4"
+				"bzz-raw://0d62cb8b470500ed5a1975bc5a71e1b0bab5d5dc98048dd3823b2fab6e7adc60",
+				"dweb:/ipfs/QmTC2ERiC49PpeNXuNVG7a16US4LipYszozagrtUyErMVv"
 			]
 		},
 		"PriceConverter.sol": {
