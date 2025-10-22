@@ -3,18 +3,18 @@
 pragma solidity ^0.8.30;
 import {PriceConverter} from "./PriceConverter.sol";
 contract FundMe{
-    uint256 public minusd=5e18;
+    uint256 public constant MIN_USD=5e18;
     address[] public funders;
     mapping(address => uint256) addressToAmountFunded;
     using PriceConverter for uint256;
     function fund() public payable {
-        require(msg.value.getConversionRate()>=minusd,"didn't send enough eth");
+        require(msg.value.getConversionRate()>=MIN_USD,"didn't send enough eth");
         funders.push(msg.sender);
         addressToAmountFunded[msg.sender]+=msg.value;
     }
-     address public owner ;
+     address public immutable i_owner ;
     constructor (){
-       owner=msg.sender;
+       i_owner=msg.sender;
     }
     function withdraw() public onlyOwner{
         for(uint256 funderIndex=0; funderIndex<funders.length;funderIndex++){
@@ -30,7 +30,7 @@ contract FundMe{
       require(callSuccess,"call fails");
     }
     modifier onlyOwner() {
-        require(msg.sender==owner,"not owner");
+        require(msg.sender==i_owner,"not owner");
         _;
     }
 }
