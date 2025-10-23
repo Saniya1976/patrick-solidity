@@ -16,4 +16,7 @@ contract SimpleBank{
     function CheckBal() public view returns(uint256){
         return balances[msg.sender];
     }
+    function TotalBalance() public view returns(uint256){
+        return address(this).balance;
+    }
 }

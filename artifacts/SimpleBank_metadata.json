@@ -26,6 +26,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "TotalBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -67,11 +80,11 @@
 	},
 	"sources": {
 		"contracts/BankContract.sol": {
-			"keccak256": "0x21d0bb052e9a6dccb43da1520b2c74ffbcd472411f01c3a7cc9e57a553572836",
+			"keccak256": "0xf675eb98cfcf8c6ccbf4b3debcb11f12799e788697c11e7d95554c7e7295a2f0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://08cfeec1d7831118ec45cdb036bb2f337f2fc16c748b0d340f3ebcecd734bccf",
-				"dweb:/ipfs/QmUAwnB6J87PFsVL4aHrwKM51Ym7KVpzLzGhYovFrqZmyG"
+				"bzz-raw://2d8b3ebde5e0f2b032ad2282e05dcdee148d33c2ad4be9ad47f2f4975cc0ce36",
+				"dweb:/ipfs/QmNv44uoKuZxEvnsNPPk1PeodumVwzXoJnJF2HuwoqJstK"
 			]
 		}
 	},
