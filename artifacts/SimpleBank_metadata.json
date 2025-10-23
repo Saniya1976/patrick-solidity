@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "CheckBal",
+				"name": "checkBal",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,14 +20,14 @@
 			},
 			{
 				"inputs": [],
-				"name": "Deposit",
+				"name": "deposit",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "TotalBalance",
+				"name": "totalBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -80,11 +80,11 @@
 	},
 	"sources": {
 		"contracts/BankContract.sol": {
-			"keccak256": "0xf675eb98cfcf8c6ccbf4b3debcb11f12799e788697c11e7d95554c7e7295a2f0",
+			"keccak256": "0x68dc8b8cd28b2cf7e2bdc25ee3e571f96d295d66ac1869b608b82f676b37f47c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2d8b3ebde5e0f2b032ad2282e05dcdee148d33c2ad4be9ad47f2f4975cc0ce36",
-				"dweb:/ipfs/QmNv44uoKuZxEvnsNPPk1PeodumVwzXoJnJF2HuwoqJstK"
+				"bzz-raw://6f3de415cda8303967de0bb3dc550dccd7728d7ea7bb79dd5144df7af80f5cc5",
+				"dweb:/ipfs/QmfRWrXgmaeWXzo2UUxnwKNDGyNL9PH5QpvR1E8a45gJHe"
 			]
 		}
 	},
