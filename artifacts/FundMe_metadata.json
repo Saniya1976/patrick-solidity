@@ -98,7 +98,7 @@
 		"compilationTarget": {
 			"contracts/FundMe.sol": "FundMe"
 		},
-		"evmVersion": "london",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
