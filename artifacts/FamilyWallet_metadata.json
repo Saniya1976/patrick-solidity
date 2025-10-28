@@ -179,11 +179,11 @@
 	},
 	"sources": {
 		"contracts/FamilyWallet.sol": {
-			"keccak256": "0xb70d72c801f935f8d782697fd958edc9864c13b8f2fd70ad79a9312a844c4fc1",
+			"keccak256": "0x5ce56e9c9c35c02260fcfa9182bcc763d5cadef0ddd3be97e2db1636f7e8d48c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ca9188d80eadaf4fc1ed256c1b4c5df71b3f6916a7bfb0ac4ce715d78549cd0d",
-				"dweb:/ipfs/QmYDKCnGmUFJxrxMYnQjWausWsufWYDgCP3HTHkpfTrGo9"
+				"bzz-raw://439fe27d969f65e6f77493c141662842304387efb7ff46892cf33b9b8dff2252",
+				"dweb:/ipfs/QmcDdwYGgfMAyUwsukF8Mae8gTxCrDQfLJ8JpzC3FyX3vr"
 			]
 		}
 	},
